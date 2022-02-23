@@ -1,0 +1,128 @@
+/* body {
+  background-color: black;
+}
+
+p {
+  font-size: 20px;
+}
+/* primer parrafo */
+/*.p-green {
+  color: greenyellow;
+}
+
+#main-section {
+  background-color: skyblue;
+} */
+
+/* 
+  Soy un comentario
+ */
+
+/* Book page */
+
+/* * {
+  margin: 0;
+} */
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #023365;
+  height: 48px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #00e6b2;
+  color: #023365;
+}
+
+.hero-image {
+  background-image: url("./assets/images/books.jpeg");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  color: #fff;
+}
+
+.articles {
+  text-align: center;
+}
+
+.article {
+  border: 1px solid #d3d3d3;
+  width: 30%;
+  margin: 50px 20px;
+  display: inline-block;
+}
+
+.article-header__img {
+  width: 100%;
+  max-height: 350px;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: #023365;
+  }
+
+  .article {
+    border: 3px solid violet;
+    width: 50%;
+    margin: 50px auto;
+  }
+}
+
+/* animaciones y transiciones */
+
+.article {
+  background-color: #c0392b;
+  transition: background-color 0.5s linear;
+}
+
+.article:hover {
+  background-color: #3f51b5;
+}
+
+/* #article2 {
+  border-radius: 0px;
+  background-color: #17a589;
+  transition: 3s linear;
+}
+
+#article2:hover {
+  border-radius: 50px;
+} */
+
+.article {
+  border-radius: 50px;
+}
+
+.hero-text {
+  transform: scaleX(1);
+  transition: transform 0.5s ease;
+}
+
+.hero-text:hover {
+  transform: scaleX(2);
+}
